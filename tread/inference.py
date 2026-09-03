@@ -10,11 +10,11 @@ from .utils import get_ranges
 
 REPEAT_TYPES = (
     "all-alpha solenoid",
-    "all-beta solenoid",
-    "beta-alpha solenoid",
     "TIM barrel",
-    "beta-barrel",
     "beta-propeller",
+    "beta-barrel",
+    "all-beta solenoid",
+    "alpha-beta solenoid",
 )
 
 MODEL_SPECS = {
